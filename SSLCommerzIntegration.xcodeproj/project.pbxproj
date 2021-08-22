@@ -7,62 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3053732C26D24ADE002D85D0 /* SSLCommerzIntegrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053732B26D24ADE002D85D0 /* SSLCommerzIntegrationApp.swift */; };
-		3053732E26D24ADE002D85D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053732D26D24ADE002D85D0 /* ContentView.swift */; };
-		3053733026D24ADF002D85D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3053732F26D24ADF002D85D0 /* Assets.xcassets */; };
-		3053733326D24ADF002D85D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3053733226D24ADF002D85D0 /* Preview Assets.xcassets */; };
-		3053733E26D24AE0002D85D0 /* SSLCommerzIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053733D26D24AE0002D85D0 /* SSLCommerzIntegrationTests.swift */; };
-		3053734926D24AE0002D85D0 /* SSLCommerzIntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053734826D24AE0002D85D0 /* SSLCommerzIntegrationUITests.swift */; };
+		3053737326D2514C002D85D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053737226D2514C002D85D0 /* AppDelegate.swift */; };
+		3053737526D2514C002D85D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053737426D2514C002D85D0 /* SceneDelegate.swift */; };
+		3053737A26D2514C002D85D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3053737826D2514C002D85D0 /* Main.storyboard */; };
+		3053737C26D2514D002D85D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3053737B26D2514D002D85D0 /* Assets.xcassets */; };
+		3053737F26D2514D002D85D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3053737D26D2514D002D85D0 /* LaunchScreen.storyboard */; };
+		3053738A26D2514D002D85D0 /* SSLCommerzIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053738926D2514D002D85D0 /* SSLCommerzIntegrationTests.swift */; };
+		3053739526D2514D002D85D0 /* SSLCommerzIntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053739426D2514D002D85D0 /* SSLCommerzIntegrationUITests.swift */; };
+		305373B626D252A0002D85D0 /* SSLCommerzSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305373B126D2529C002D85D0 /* SSLCommerzSDK.framework */; };
+		305373B726D252A0002D85D0 /* SSLCommerzSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 305373B126D2529C002D85D0 /* SSLCommerzSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		305373BE26D2550D002D85D0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305373BD26D2550D002D85D0 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3053733A26D24AE0002D85D0 /* PBXContainerItemProxy */ = {
+		3053738626D2514D002D85D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3053732026D24ADE002D85D0 /* Project object */;
+			containerPortal = 3053736726D2514C002D85D0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3053732726D24ADE002D85D0;
+			remoteGlobalIDString = 3053736E26D2514C002D85D0;
 			remoteInfo = SSLCommerzIntegration;
 		};
-		3053734526D24AE0002D85D0 /* PBXContainerItemProxy */ = {
+		3053739126D2514D002D85D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3053732026D24ADE002D85D0 /* Project object */;
+			containerPortal = 3053736726D2514C002D85D0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3053732726D24ADE002D85D0;
+			remoteGlobalIDString = 3053736E26D2514C002D85D0;
 			remoteInfo = SSLCommerzIntegration;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		305373B826D252A0002D85D0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				305373B726D252A0002D85D0 /* SSLCommerzSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		3053732826D24ADE002D85D0 /* SSLCommerzIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLCommerzIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3053732B26D24ADE002D85D0 /* SSLCommerzIntegrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLCommerzIntegrationApp.swift; sourceTree = "<group>"; };
-		3053732D26D24ADE002D85D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3053732F26D24ADF002D85D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3053733226D24ADF002D85D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3053733426D24ADF002D85D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3053733926D24AE0002D85D0 /* SSLCommerzIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLCommerzIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3053733D26D24AE0002D85D0 /* SSLCommerzIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLCommerzIntegrationTests.swift; sourceTree = "<group>"; };
-		3053733F26D24AE0002D85D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3053734426D24AE0002D85D0 /* SSLCommerzIntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLCommerzIntegrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3053734826D24AE0002D85D0 /* SSLCommerzIntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLCommerzIntegrationUITests.swift; sourceTree = "<group>"; };
-		3053734A26D24AE0002D85D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3053736F26D2514C002D85D0 /* SSLCommerzIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLCommerzIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3053737226D2514C002D85D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3053737426D2514C002D85D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3053737926D2514C002D85D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3053737B26D2514D002D85D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3053737E26D2514D002D85D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3053738026D2514D002D85D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3053738526D2514D002D85D0 /* SSLCommerzIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLCommerzIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3053738926D2514D002D85D0 /* SSLCommerzIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLCommerzIntegrationTests.swift; sourceTree = "<group>"; };
+		3053738B26D2514D002D85D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3053739026D2514D002D85D0 /* SSLCommerzIntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLCommerzIntegrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3053739426D2514D002D85D0 /* SSLCommerzIntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLCommerzIntegrationUITests.swift; sourceTree = "<group>"; };
+		3053739626D2514D002D85D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		305373B126D2529C002D85D0 /* SSLCommerzSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SSLCommerzSDK.framework; sourceTree = "<group>"; };
+		305373BD26D2550D002D85D0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3053732526D24ADE002D85D0 /* Frameworks */ = {
+		3053736C26D2514C002D85D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305373B626D252A0002D85D0 /* SSLCommerzSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3053738226D2514D002D85D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3053733626D24AE0002D85D0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3053734126D24AE0002D85D0 /* Frameworks */ = {
+		3053738D26D2514D002D85D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,60 +94,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3053731F26D24ADE002D85D0 = {
+		3053736626D2514C002D85D0 = {
 			isa = PBXGroup;
 			children = (
-				3053732A26D24ADE002D85D0 /* SSLCommerzIntegration */,
-				3053733C26D24AE0002D85D0 /* SSLCommerzIntegrationTests */,
-				3053734726D24AE0002D85D0 /* SSLCommerzIntegrationUITests */,
-				3053732926D24ADE002D85D0 /* Products */,
+				305373B126D2529C002D85D0 /* SSLCommerzSDK.framework */,
+				3053737126D2514C002D85D0 /* SSLCommerzIntegration */,
+				3053738826D2514D002D85D0 /* SSLCommerzIntegrationTests */,
+				3053739326D2514D002D85D0 /* SSLCommerzIntegrationUITests */,
+				3053737026D2514C002D85D0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3053732926D24ADE002D85D0 /* Products */ = {
+		3053737026D2514C002D85D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3053732826D24ADE002D85D0 /* SSLCommerzIntegration.app */,
-				3053733926D24AE0002D85D0 /* SSLCommerzIntegrationTests.xctest */,
-				3053734426D24AE0002D85D0 /* SSLCommerzIntegrationUITests.xctest */,
+				3053736F26D2514C002D85D0 /* SSLCommerzIntegration.app */,
+				3053738526D2514D002D85D0 /* SSLCommerzIntegrationTests.xctest */,
+				3053739026D2514D002D85D0 /* SSLCommerzIntegrationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3053732A26D24ADE002D85D0 /* SSLCommerzIntegration */ = {
+		3053737126D2514C002D85D0 /* SSLCommerzIntegration */ = {
 			isa = PBXGroup;
 			children = (
-				3053732B26D24ADE002D85D0 /* SSLCommerzIntegrationApp.swift */,
-				3053732D26D24ADE002D85D0 /* ContentView.swift */,
-				3053732F26D24ADF002D85D0 /* Assets.xcassets */,
-				3053733426D24ADF002D85D0 /* Info.plist */,
-				3053733126D24ADF002D85D0 /* Preview Content */,
+				3053737226D2514C002D85D0 /* AppDelegate.swift */,
+				3053737426D2514C002D85D0 /* SceneDelegate.swift */,
+				3053737826D2514C002D85D0 /* Main.storyboard */,
+				3053737B26D2514D002D85D0 /* Assets.xcassets */,
+				3053737D26D2514D002D85D0 /* LaunchScreen.storyboard */,
+				3053738026D2514D002D85D0 /* Info.plist */,
+				305373BD26D2550D002D85D0 /* MainViewController.swift */,
 			);
 			path = SSLCommerzIntegration;
 			sourceTree = "<group>";
 		};
-		3053733126D24ADF002D85D0 /* Preview Content */ = {
+		3053738826D2514D002D85D0 /* SSLCommerzIntegrationTests */ = {
 			isa = PBXGroup;
 			children = (
-				3053733226D24ADF002D85D0 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		3053733C26D24AE0002D85D0 /* SSLCommerzIntegrationTests */ = {
-			isa = PBXGroup;
-			children = (
-				3053733D26D24AE0002D85D0 /* SSLCommerzIntegrationTests.swift */,
-				3053733F26D24AE0002D85D0 /* Info.plist */,
+				3053738926D2514D002D85D0 /* SSLCommerzIntegrationTests.swift */,
+				3053738B26D2514D002D85D0 /* Info.plist */,
 			);
 			path = SSLCommerzIntegrationTests;
 			sourceTree = "<group>";
 		};
-		3053734726D24AE0002D85D0 /* SSLCommerzIntegrationUITests */ = {
+		3053739326D2514D002D85D0 /* SSLCommerzIntegrationUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3053734826D24AE0002D85D0 /* SSLCommerzIntegrationUITests.swift */,
-				3053734A26D24AE0002D85D0 /* Info.plist */,
+				3053739426D2514D002D85D0 /* SSLCommerzIntegrationUITests.swift */,
+				3053739626D2514D002D85D0 /* Info.plist */,
 			);
 			path = SSLCommerzIntegrationUITests;
 			sourceTree = "<group>";
@@ -133,13 +150,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3053732726D24ADE002D85D0 /* SSLCommerzIntegration */ = {
+		3053736E26D2514C002D85D0 /* SSLCommerzIntegration */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3053734D26D24AE0002D85D0 /* Build configuration list for PBXNativeTarget "SSLCommerzIntegration" */;
+			buildConfigurationList = 3053739926D2514D002D85D0 /* Build configuration list for PBXNativeTarget "SSLCommerzIntegration" */;
 			buildPhases = (
-				3053732426D24ADE002D85D0 /* Sources */,
-				3053732526D24ADE002D85D0 /* Frameworks */,
-				3053732626D24ADE002D85D0 /* Resources */,
+				3053736B26D2514C002D85D0 /* Sources */,
+				3053736C26D2514C002D85D0 /* Frameworks */,
+				3053736D26D2514C002D85D0 /* Resources */,
+				305373B826D252A0002D85D0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,68 +165,68 @@
 			);
 			name = SSLCommerzIntegration;
 			productName = SSLCommerzIntegration;
-			productReference = 3053732826D24ADE002D85D0 /* SSLCommerzIntegration.app */;
+			productReference = 3053736F26D2514C002D85D0 /* SSLCommerzIntegration.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3053733826D24AE0002D85D0 /* SSLCommerzIntegrationTests */ = {
+		3053738426D2514D002D85D0 /* SSLCommerzIntegrationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3053735026D24AE0002D85D0 /* Build configuration list for PBXNativeTarget "SSLCommerzIntegrationTests" */;
+			buildConfigurationList = 3053739C26D2514D002D85D0 /* Build configuration list for PBXNativeTarget "SSLCommerzIntegrationTests" */;
 			buildPhases = (
-				3053733526D24AE0002D85D0 /* Sources */,
-				3053733626D24AE0002D85D0 /* Frameworks */,
-				3053733726D24AE0002D85D0 /* Resources */,
+				3053738126D2514D002D85D0 /* Sources */,
+				3053738226D2514D002D85D0 /* Frameworks */,
+				3053738326D2514D002D85D0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3053733B26D24AE0002D85D0 /* PBXTargetDependency */,
+				3053738726D2514D002D85D0 /* PBXTargetDependency */,
 			);
 			name = SSLCommerzIntegrationTests;
 			productName = SSLCommerzIntegrationTests;
-			productReference = 3053733926D24AE0002D85D0 /* SSLCommerzIntegrationTests.xctest */;
+			productReference = 3053738526D2514D002D85D0 /* SSLCommerzIntegrationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3053734326D24AE0002D85D0 /* SSLCommerzIntegrationUITests */ = {
+		3053738F26D2514D002D85D0 /* SSLCommerzIntegrationUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3053735326D24AE0002D85D0 /* Build configuration list for PBXNativeTarget "SSLCommerzIntegrationUITests" */;
+			buildConfigurationList = 3053739F26D2514D002D85D0 /* Build configuration list for PBXNativeTarget "SSLCommerzIntegrationUITests" */;
 			buildPhases = (
-				3053734026D24AE0002D85D0 /* Sources */,
-				3053734126D24AE0002D85D0 /* Frameworks */,
-				3053734226D24AE0002D85D0 /* Resources */,
+				3053738C26D2514D002D85D0 /* Sources */,
+				3053738D26D2514D002D85D0 /* Frameworks */,
+				3053738E26D2514D002D85D0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3053734626D24AE0002D85D0 /* PBXTargetDependency */,
+				3053739226D2514D002D85D0 /* PBXTargetDependency */,
 			);
 			name = SSLCommerzIntegrationUITests;
 			productName = SSLCommerzIntegrationUITests;
-			productReference = 3053734426D24AE0002D85D0 /* SSLCommerzIntegrationUITests.xctest */;
+			productReference = 3053739026D2514D002D85D0 /* SSLCommerzIntegrationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3053732026D24ADE002D85D0 /* Project object */ = {
+		3053736726D2514C002D85D0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					3053732726D24ADE002D85D0 = {
+					3053736E26D2514C002D85D0 = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					3053733826D24AE0002D85D0 = {
+					3053738426D2514D002D85D0 = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 3053732726D24ADE002D85D0;
+						TestTargetID = 3053736E26D2514C002D85D0;
 					};
-					3053734326D24AE0002D85D0 = {
+					3053738F26D2514D002D85D0 = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 3053732726D24ADE002D85D0;
+						TestTargetID = 3053736E26D2514C002D85D0;
 					};
 				};
 			};
-			buildConfigurationList = 3053732326D24ADE002D85D0 /* Build configuration list for PBXProject "SSLCommerzIntegration" */;
+			buildConfigurationList = 3053736A26D2514C002D85D0 /* Build configuration list for PBXProject "SSLCommerzIntegration" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +234,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 3053731F26D24ADE002D85D0;
-			productRefGroup = 3053732926D24ADE002D85D0 /* Products */;
+			mainGroup = 3053736626D2514C002D85D0;
+			productRefGroup = 3053737026D2514C002D85D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3053732726D24ADE002D85D0 /* SSLCommerzIntegration */,
-				3053733826D24AE0002D85D0 /* SSLCommerzIntegrationTests */,
-				3053734326D24AE0002D85D0 /* SSLCommerzIntegrationUITests */,
+				3053736E26D2514C002D85D0 /* SSLCommerzIntegration */,
+				3053738426D2514D002D85D0 /* SSLCommerzIntegrationTests */,
+				3053738F26D2514D002D85D0 /* SSLCommerzIntegrationUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3053732626D24ADE002D85D0 /* Resources */ = {
+		3053736D26D2514C002D85D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3053733326D24ADF002D85D0 /* Preview Assets.xcassets in Resources */,
-				3053733026D24ADF002D85D0 /* Assets.xcassets in Resources */,
+				3053737F26D2514D002D85D0 /* LaunchScreen.storyboard in Resources */,
+				3053737C26D2514D002D85D0 /* Assets.xcassets in Resources */,
+				3053737A26D2514C002D85D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3053733726D24AE0002D85D0 /* Resources */ = {
+		3053738326D2514D002D85D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3053734226D24AE0002D85D0 /* Resources */ = {
+		3053738E26D2514D002D85D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,48 +274,68 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3053732426D24ADE002D85D0 /* Sources */ = {
+		3053736B26D2514C002D85D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3053732E26D24ADE002D85D0 /* ContentView.swift in Sources */,
-				3053732C26D24ADE002D85D0 /* SSLCommerzIntegrationApp.swift in Sources */,
+				3053737326D2514C002D85D0 /* AppDelegate.swift in Sources */,
+				3053737526D2514C002D85D0 /* SceneDelegate.swift in Sources */,
+				305373BE26D2550D002D85D0 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3053733526D24AE0002D85D0 /* Sources */ = {
+		3053738126D2514D002D85D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3053733E26D24AE0002D85D0 /* SSLCommerzIntegrationTests.swift in Sources */,
+				3053738A26D2514D002D85D0 /* SSLCommerzIntegrationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3053734026D24AE0002D85D0 /* Sources */ = {
+		3053738C26D2514D002D85D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3053734926D24AE0002D85D0 /* SSLCommerzIntegrationUITests.swift in Sources */,
+				3053739526D2514D002D85D0 /* SSLCommerzIntegrationUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3053733B26D24AE0002D85D0 /* PBXTargetDependency */ = {
+		3053738726D2514D002D85D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3053732726D24ADE002D85D0 /* SSLCommerzIntegration */;
-			targetProxy = 3053733A26D24AE0002D85D0 /* PBXContainerItemProxy */;
+			target = 3053736E26D2514C002D85D0 /* SSLCommerzIntegration */;
+			targetProxy = 3053738626D2514D002D85D0 /* PBXContainerItemProxy */;
 		};
-		3053734626D24AE0002D85D0 /* PBXTargetDependency */ = {
+		3053739226D2514D002D85D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3053732726D24ADE002D85D0 /* SSLCommerzIntegration */;
-			targetProxy = 3053734526D24AE0002D85D0 /* PBXContainerItemProxy */;
+			target = 3053736E26D2514C002D85D0 /* SSLCommerzIntegration */;
+			targetProxy = 3053739126D2514D002D85D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		3053737826D2514C002D85D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3053737926D2514C002D85D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3053737D26D2514D002D85D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3053737E26D2514D002D85D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		3053734B26D24AE0002D85D0 /* Debug */ = {
+		3053739726D2514D002D85D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -347,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -357,7 +396,7 @@
 			};
 			name = Debug;
 		};
-		3053734C26D24AE0002D85D0 /* Release */ = {
+		3053739826D2514D002D85D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -402,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -412,56 +451,64 @@
 			};
 			name = Release;
 		};
-		3053734E26D24AE0002D85D0 /* Debug */ = {
+		3053739A26D2514D002D85D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SSLCommerzIntegration/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
+				DEVELOPMENT_TEAM = C65RR3S49F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SSLCommerzIntegration/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = romana.SSLCommerzIntegration;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mislbd.ubl.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3053734F26D24AE0002D85D0 /* Release */ = {
+		3053739B26D2514D002D85D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SSLCommerzIntegration/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
+				DEVELOPMENT_TEAM = C65RR3S49F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SSLCommerzIntegration/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = romana.SSLCommerzIntegration;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mislbd.ubl.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		3053735126D24AE0002D85D0 /* Debug */ = {
+		3053739D26D2514D002D85D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SSLCommerzIntegrationTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,14 +522,14 @@
 			};
 			name = Debug;
 		};
-		3053735226D24AE0002D85D0 /* Release */ = {
+		3053739E26D2514D002D85D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SSLCommerzIntegrationTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -496,7 +543,7 @@
 			};
 			name = Release;
 		};
-		3053735426D24AE0002D85D0 /* Debug */ = {
+		305373A026D2514D002D85D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -515,7 +562,7 @@
 			};
 			name = Debug;
 		};
-		3053735526D24AE0002D85D0 /* Release */ = {
+		305373A126D2514D002D85D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -537,43 +584,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3053732326D24ADE002D85D0 /* Build configuration list for PBXProject "SSLCommerzIntegration" */ = {
+		3053736A26D2514C002D85D0 /* Build configuration list for PBXProject "SSLCommerzIntegration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3053734B26D24AE0002D85D0 /* Debug */,
-				3053734C26D24AE0002D85D0 /* Release */,
+				3053739726D2514D002D85D0 /* Debug */,
+				3053739826D2514D002D85D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3053734D26D24AE0002D85D0 /* Build configuration list for PBXNativeTarget "SSLCommerzIntegration" */ = {
+		3053739926D2514D002D85D0 /* Build configuration list for PBXNativeTarget "SSLCommerzIntegration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3053734E26D24AE0002D85D0 /* Debug */,
-				3053734F26D24AE0002D85D0 /* Release */,
+				3053739A26D2514D002D85D0 /* Debug */,
+				3053739B26D2514D002D85D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3053735026D24AE0002D85D0 /* Build configuration list for PBXNativeTarget "SSLCommerzIntegrationTests" */ = {
+		3053739C26D2514D002D85D0 /* Build configuration list for PBXNativeTarget "SSLCommerzIntegrationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3053735126D24AE0002D85D0 /* Debug */,
-				3053735226D24AE0002D85D0 /* Release */,
+				3053739D26D2514D002D85D0 /* Debug */,
+				3053739E26D2514D002D85D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3053735326D24AE0002D85D0 /* Build configuration list for PBXNativeTarget "SSLCommerzIntegrationUITests" */ = {
+		3053739F26D2514D002D85D0 /* Build configuration list for PBXNativeTarget "SSLCommerzIntegrationUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3053735426D24AE0002D85D0 /* Debug */,
-				3053735526D24AE0002D85D0 /* Release */,
+				305373A026D2514D002D85D0 /* Debug */,
+				305373A126D2514D002D85D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3053732026D24ADE002D85D0 /* Project object */;
+	rootObject = 3053736726D2514C002D85D0 /* Project object */;
 }
