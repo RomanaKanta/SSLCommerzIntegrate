@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3053732C26D24ADE002D85D0 /* SSLCommerzIntegrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053732B26D24ADE002D85D0 /* SSLCommerzIntegrationApp.swift */; };
+		3053732E26D24ADE002D85D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053732D26D24ADE002D85D0 /* ContentView.swift */; };
+		3053733026D24ADF002D85D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3053732F26D24ADF002D85D0 /* Assets.xcassets */; };
+		3053733326D24ADF002D85D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3053733226D24ADF002D85D0 /* Preview Assets.xcassets */; };
+		3053733E26D24AE0002D85D0 /* SSLCommerzIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053733D26D24AE0002D85D0 /* SSLCommerzIntegrationTests.swift */; };
+		3053734926D24AE0002D85D0 /* SSLCommerzIntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053734826D24AE0002D85D0 /* SSLCommerzIntegrationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3053733A26D24AE0002D85D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3053732026D24ADE002D85D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3053732726D24ADE002D85D0;
+			remoteInfo = SSLCommerzIntegration;
+		};
+		3053734526D24AE0002D85D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3053732026D24ADE002D85D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3053732726D24ADE002D85D0;
+			remoteInfo = SSLCommerzIntegration;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3053732826D24ADE002D85D0 /* SSLCommerzIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLCommerzIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3053732B26D24ADE002D85D0 /* SSLCommerzIntegrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLCommerzIntegrationApp.swift; sourceTree = "<group>"; };
+		3053732D26D24ADE002D85D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3053732F26D24ADF002D85D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3053733226D24ADF002D85D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3053733426D24ADF002D85D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3053733926D24AE0002D85D0 /* SSLCommerzIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLCommerzIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3053733D26D24AE0002D85D0 /* SSLCommerzIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLCommerzIntegrationTests.swift; sourceTree = "<group>"; };
+		3053733F26D24AE0002D85D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3053734426D24AE0002D85D0 /* SSLCommerzIntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLCommerzIntegrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3053734826D24AE0002D85D0 /* SSLCommerzIntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLCommerzIntegrationUITests.swift; sourceTree = "<group>"; };
+		3053734A26D24AE0002D85D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3053732526D24ADE002D85D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3053733626D24AE0002D85D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3053734126D24AE0002D85D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3053731F26D24ADE002D85D0 = {
+			isa = PBXGroup;
+			children = (
+				3053732A26D24ADE002D85D0 /* SSLCommerzIntegration */,
+				3053733C26D24AE0002D85D0 /* SSLCommerzIntegrationTests */,
+				3053734726D24AE0002D85D0 /* SSLCommerzIntegrationUITests */,
+				3053732926D24ADE002D85D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3053732926D24ADE002D85D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3053732826D24ADE002D85D0 /* SSLCommerzIntegration.app */,
+				3053733926D24AE0002D85D0 /* SSLCommerzIntegrationTests.xctest */,
+				3053734426D24AE0002D85D0 /* SSLCommerzIntegrationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3053732A26D24ADE002D85D0 /* SSLCommerzIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				3053732B26D24ADE002D85D0 /* SSLCommerzIntegrationApp.swift */,
+				3053732D26D24ADE002D85D0 /* ContentView.swift */,
+				3053732F26D24ADF002D85D0 /* Assets.xcassets */,
+				3053733426D24ADF002D85D0 /* Info.plist */,
+				3053733126D24ADF002D85D0 /* Preview Content */,
+			);
+			path = SSLCommerzIntegration;
+			sourceTree = "<group>";
+		};
+		3053733126D24ADF002D85D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3053733226D24ADF002D85D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3053733C26D24AE0002D85D0 /* SSLCommerzIntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				3053733D26D24AE0002D85D0 /* SSLCommerzIntegrationTests.swift */,
+				3053733F26D24AE0002D85D0 /* Info.plist */,
+			);
+			path = SSLCommerzIntegrationTests;
+			sourceTree = "<group>";
+		};
+		3053734726D24AE0002D85D0 /* SSLCommerzIntegrationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3053734826D24AE0002D85D0 /* SSLCommerzIntegrationUITests.swift */,
+				3053734A26D24AE0002D85D0 /* Info.plist */,
+			);
+			path = SSLCommerzIntegrationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3053732726D24ADE002D85D0 /* SSLCommerzIntegration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3053734D26D24AE0002D85D0 /* Build configuration list for PBXNativeTarget "SSLCommerzIntegration" */;
+			buildPhases = (
+				3053732426D24ADE002D85D0 /* Sources */,
+				3053732526D24ADE002D85D0 /* Frameworks */,
+				3053732626D24ADE002D85D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLCommerzIntegration;
+			productName = SSLCommerzIntegration;
+			productReference = 3053732826D24ADE002D85D0 /* SSLCommerzIntegration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3053733826D24AE0002D85D0 /* SSLCommerzIntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3053735026D24AE0002D85D0 /* Build configuration list for PBXNativeTarget "SSLCommerzIntegrationTests" */;
+			buildPhases = (
+				3053733526D24AE0002D85D0 /* Sources */,
+				3053733626D24AE0002D85D0 /* Frameworks */,
+				3053733726D24AE0002D85D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3053733B26D24AE0002D85D0 /* PBXTargetDependency */,
+			);
+			name = SSLCommerzIntegrationTests;
+			productName = SSLCommerzIntegrationTests;
+			productReference = 3053733926D24AE0002D85D0 /* SSLCommerzIntegrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3053734326D24AE0002D85D0 /* SSLCommerzIntegrationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3053735326D24AE0002D85D0 /* Build configuration list for PBXNativeTarget "SSLCommerzIntegrationUITests" */;
+			buildPhases = (
+				3053734026D24AE0002D85D0 /* Sources */,
+				3053734126D24AE0002D85D0 /* Frameworks */,
+				3053734226D24AE0002D85D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3053734626D24AE0002D85D0 /* PBXTargetDependency */,
+			);
+			name = SSLCommerzIntegrationUITests;
+			productName = SSLCommerzIntegrationUITests;
+			productReference = 3053734426D24AE0002D85D0 /* SSLCommerzIntegrationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3053732026D24ADE002D85D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3053732726D24ADE002D85D0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3053733826D24AE0002D85D0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3053732726D24ADE002D85D0;
+					};
+					3053734326D24AE0002D85D0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3053732726D24ADE002D85D0;
+					};
+				};
+			};
+			buildConfigurationList = 3053732326D24ADE002D85D0 /* Build configuration list for PBXProject "SSLCommerzIntegration" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3053731F26D24ADE002D85D0;
+			productRefGroup = 3053732926D24ADE002D85D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3053732726D24ADE002D85D0 /* SSLCommerzIntegration */,
+				3053733826D24AE0002D85D0 /* SSLCommerzIntegrationTests */,
+				3053734326D24AE0002D85D0 /* SSLCommerzIntegrationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3053732626D24ADE002D85D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3053733326D24ADF002D85D0 /* Preview Assets.xcassets in Resources */,
+				3053733026D24ADF002D85D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3053733726D24AE0002D85D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3053734226D24AE0002D85D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3053732426D24ADE002D85D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3053732E26D24ADE002D85D0 /* ContentView.swift in Sources */,
+				3053732C26D24ADE002D85D0 /* SSLCommerzIntegrationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3053733526D24AE0002D85D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3053733E26D24AE0002D85D0 /* SSLCommerzIntegrationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3053734026D24AE0002D85D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3053734926D24AE0002D85D0 /* SSLCommerzIntegrationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3053733B26D24AE0002D85D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3053732726D24ADE002D85D0 /* SSLCommerzIntegration */;
+			targetProxy = 3053733A26D24AE0002D85D0 /* PBXContainerItemProxy */;
+		};
+		3053734626D24AE0002D85D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3053732726D24ADE002D85D0 /* SSLCommerzIntegration */;
+			targetProxy = 3053734526D24AE0002D85D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3053734B26D24AE0002D85D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3053734C26D24AE0002D85D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3053734E26D24AE0002D85D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SSLCommerzIntegration/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SSLCommerzIntegration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = romana.SSLCommerzIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3053734F26D24AE0002D85D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SSLCommerzIntegration/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SSLCommerzIntegration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = romana.SSLCommerzIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3053735126D24AE0002D85D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SSLCommerzIntegrationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = romana.SSLCommerzIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLCommerzIntegration.app/SSLCommerzIntegration";
+			};
+			name = Debug;
+		};
+		3053735226D24AE0002D85D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SSLCommerzIntegrationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = romana.SSLCommerzIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLCommerzIntegration.app/SSLCommerzIntegration";
+			};
+			name = Release;
+		};
+		3053735426D24AE0002D85D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SSLCommerzIntegrationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = romana.SSLCommerzIntegrationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SSLCommerzIntegration;
+			};
+			name = Debug;
+		};
+		3053735526D24AE0002D85D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SSLCommerzIntegrationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = romana.SSLCommerzIntegrationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SSLCommerzIntegration;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3053732326D24ADE002D85D0 /* Build configuration list for PBXProject "SSLCommerzIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3053734B26D24AE0002D85D0 /* Debug */,
+				3053734C26D24AE0002D85D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3053734D26D24AE0002D85D0 /* Build configuration list for PBXNativeTarget "SSLCommerzIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3053734E26D24AE0002D85D0 /* Debug */,
+				3053734F26D24AE0002D85D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3053735026D24AE0002D85D0 /* Build configuration list for PBXNativeTarget "SSLCommerzIntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3053735126D24AE0002D85D0 /* Debug */,
+				3053735226D24AE0002D85D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3053735326D24AE0002D85D0 /* Build configuration list for PBXNativeTarget "SSLCommerzIntegrationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3053735426D24AE0002D85D0 /* Debug */,
+				3053735526D24AE0002D85D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3053732026D24ADE002D85D0 /* Project object */;
+}
