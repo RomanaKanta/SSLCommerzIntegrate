@@ -16,7 +16,8 @@
 		3053739526D2514D002D85D0 /* SSLCommerzIntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053739426D2514D002D85D0 /* SSLCommerzIntegrationUITests.swift */; };
 		305373B626D252A0002D85D0 /* SSLCommerzSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305373B126D2529C002D85D0 /* SSLCommerzSDK.framework */; };
 		305373B726D252A0002D85D0 /* SSLCommerzSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 305373B126D2529C002D85D0 /* SSLCommerzSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		305373BE26D2550D002D85D0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305373BD26D2550D002D85D0 /* MainViewController.swift */; };
+		305373BE26D2550D002D85D0 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305373BD26D2550D002D85D0 /* PaymentViewController.swift */; };
+		305373D126D273DE002D85D0 /* Screenshot 2021-08-22 at 5.19.12 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 305373D026D273DE002D85D0 /* Screenshot 2021-08-22 at 5.19.12 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +66,9 @@
 		3053739426D2514D002D85D0 /* SSLCommerzIntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLCommerzIntegrationUITests.swift; sourceTree = "<group>"; };
 		3053739626D2514D002D85D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		305373B126D2529C002D85D0 /* SSLCommerzSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SSLCommerzSDK.framework; sourceTree = "<group>"; };
-		305373BD26D2550D002D85D0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		305373BD26D2550D002D85D0 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		305373D026D273DE002D85D0 /* Screenshot 2021-08-22 at 5.19.12 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2021-08-22 at 5.19.12 PM.png"; path = "../../../../../Desktop/Screenshot 2021-08-22 at 5.19.12 PM.png"; sourceTree = "<group>"; };
+		305373D626D273F5002D85D0 /* AJDQ9823.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AJDQ9823.MP4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,7 @@
 		3053736626D2514C002D85D0 = {
 			isa = PBXGroup;
 			children = (
+				305373CB26D273C4002D85D0 /* images */,
 				305373B126D2529C002D85D0 /* SSLCommerzSDK.framework */,
 				3053737126D2514C002D85D0 /* SSLCommerzIntegration */,
 				3053738826D2514D002D85D0 /* SSLCommerzIntegrationTests */,
@@ -124,7 +128,7 @@
 				3053737B26D2514D002D85D0 /* Assets.xcassets */,
 				3053737D26D2514D002D85D0 /* LaunchScreen.storyboard */,
 				3053738026D2514D002D85D0 /* Info.plist */,
-				305373BD26D2550D002D85D0 /* MainViewController.swift */,
+				305373BD26D2550D002D85D0 /* PaymentViewController.swift */,
 			);
 			path = SSLCommerzIntegration;
 			sourceTree = "<group>";
@@ -145,6 +149,15 @@
 				3053739626D2514D002D85D0 /* Info.plist */,
 			);
 			path = SSLCommerzIntegrationUITests;
+			sourceTree = "<group>";
+		};
+		305373CB26D273C4002D85D0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				305373D626D273F5002D85D0 /* AJDQ9823.MP4 */,
+				305373D026D273DE002D85D0 /* Screenshot 2021-08-22 at 5.19.12 PM.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +266,7 @@
 			files = (
 				3053737F26D2514D002D85D0 /* LaunchScreen.storyboard in Resources */,
 				3053737C26D2514D002D85D0 /* Assets.xcassets in Resources */,
+				305373D126D273DE002D85D0 /* Screenshot 2021-08-22 at 5.19.12 PM.png in Resources */,
 				3053737A26D2514C002D85D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +294,7 @@
 			files = (
 				3053737326D2514C002D85D0 /* AppDelegate.swift in Sources */,
 				3053737526D2514C002D85D0 /* SceneDelegate.swift in Sources */,
-				305373BE26D2550D002D85D0 /* MainViewController.swift in Sources */,
+				305373BE26D2550D002D85D0 /* PaymentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
