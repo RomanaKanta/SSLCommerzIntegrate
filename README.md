@@ -5,7 +5,7 @@ Implementation of SSLCommerz payment gateway in iOS.
 SSLCOMMERZ is a payment gateway aggregator in Bangladesh. 
 
 
-![Clip](/images/clip.mp4)
+![Clip](/images/clip.gif)
 
 
 To integrate SSLCommerzSDK you need to complete following steps.
