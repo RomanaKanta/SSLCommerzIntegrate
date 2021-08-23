@@ -18,13 +18,13 @@ Login account with https://sandbox.sslcommerz.com/manage/
 Go to console and click the developer tab. you can now download iOS SDK file.
 
 #### Step 4:
-Unzip SSLCommerz.framework.zip file.
+Unzip 'SSLCommerz.framework.zip' file.
 
 #### Step 5:
-Drag and Drop SSLCommerzSDK.framework folder to your Xcode Project.
+Drag and Drop 'SSLCommerzSDK.framework' folder to your Xcode Project.
 
 #### Step 6:
-Make sure SSLCommerzSDK.framework properly added under 'Frameworks, Libraries, and Embedded Content' and make it 'Emded & Sign'.
+Make sure 'SSLCommerzSDK.framework' properly added under 'Frameworks, Libraries, and Embedded Content' and make it 'Emded & Sign'.
 
 Now SSLCommerzSDK set in your Xcode Project :) .
 
