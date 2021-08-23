@@ -22,6 +22,7 @@ Unzip 'SSLCommerz.framework.zip' file.
 
 #### Step 5:
 Drag and Drop 'SSLCommerzSDK.framework' folder to your Xcode Project.
+![Screenshot](/images/Screenshot.png)
 
 #### Step 6:
 Make sure 'SSLCommerzSDK.framework' properly added under 'Frameworks, Libraries, and Embedded Content' and make it 'Emded & Sign'.
