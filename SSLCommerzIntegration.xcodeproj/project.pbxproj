@@ -17,7 +17,7 @@
 		305373B626D252A0002D85D0 /* SSLCommerzSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305373B126D2529C002D85D0 /* SSLCommerzSDK.framework */; };
 		305373B726D252A0002D85D0 /* SSLCommerzSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 305373B126D2529C002D85D0 /* SSLCommerzSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		305373BE26D2550D002D85D0 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305373BD26D2550D002D85D0 /* PaymentViewController.swift */; };
-		305373D126D273DE002D85D0 /* Screenshot 2021-08-22 at 5.19.12 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 305373D026D273DE002D85D0 /* Screenshot 2021-08-22 at 5.19.12 PM.png */; };
+		30FDDF7E26D360C100CB2C1F /* Screenshot 2021-08-23 at 10.51.02 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FDDF7D26D360C100CB2C1F /* Screenshot 2021-08-23 at 10.51.02 AM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +67,8 @@
 		3053739626D2514D002D85D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		305373B126D2529C002D85D0 /* SSLCommerzSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SSLCommerzSDK.framework; sourceTree = "<group>"; };
 		305373BD26D2550D002D85D0 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
-		305373D026D273DE002D85D0 /* Screenshot 2021-08-22 at 5.19.12 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2021-08-22 at 5.19.12 PM.png"; path = "../../../../../Desktop/Screenshot 2021-08-22 at 5.19.12 PM.png"; sourceTree = "<group>"; };
 		305373D626D273F5002D85D0 /* AJDQ9823.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AJDQ9823.MP4; sourceTree = "<group>"; };
+		30FDDF7D26D360C100CB2C1F /* Screenshot 2021-08-23 at 10.51.02 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2021-08-23 at 10.51.02 AM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,8 +154,8 @@
 		305373CB26D273C4002D85D0 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				30FDDF7D26D360C100CB2C1F /* Screenshot 2021-08-23 at 10.51.02 AM.png */,
 				305373D626D273F5002D85D0 /* AJDQ9823.MP4 */,
-				305373D026D273DE002D85D0 /* Screenshot 2021-08-22 at 5.19.12 PM.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -265,8 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3053737F26D2514D002D85D0 /* LaunchScreen.storyboard in Resources */,
+				30FDDF7E26D360C100CB2C1F /* Screenshot 2021-08-23 at 10.51.02 AM.png in Resources */,
 				3053737C26D2514D002D85D0 /* Assets.xcassets in Resources */,
-				305373D126D273DE002D85D0 /* Screenshot 2021-08-22 at 5.19.12 PM.png in Resources */,
 				3053737A26D2514C002D85D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
